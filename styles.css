@@ -223,13 +223,23 @@ No media query since this is the default in Bootstrap */
   }
   
   .carousel-caption h3 {
-    font-size: 120%;
+    font-size: 1rem;
     font-weight: 500;
     text-shadow: 1px 1px 10px #000;
     padding-bottom: 1rem;
   }
+
   .carousel-caption button {
     font-size: 0.3rem;
+  }
+
+  .social a {
+    font-size: 2rem;
+    padding: 1.5rem;
+  }
+
+  .gif {
+    max-width: 80%;
   }
 }
 
@@ -249,6 +259,10 @@ No media query since this is the default in Bootstrap */
   }
   .carousel-caption button {
     font-size: 0.7rem;
+  }
+  .social a {
+    font-size: 3.5rem;
+    padding: 2.5rem;
   }
 }
 
