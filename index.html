@@ -3,16 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Website (Bootstrap)</title>
 
   <!-- Bootstrap Tutorial: https://www.youtube.com/watch?v=9cKsq14Kfsw&ab_channel=DrewRyan -->
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
   <script src="https://kit.fontawesome.com/a2396528e1.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles.css">
 
@@ -101,11 +98,11 @@
 
   <div class="container-fluid padding">
     <div class="row welcome text-center">
-      <div class="col-12">
+      <div class="col-sm">
         <h1 class="display-4">Brewed with ease.</h1>
       </div>
       <hr>
-      <div class="col-12">
+      <div class="col-sm">
         <p class="lead">There are many varieties of coffee beans from all around the world. To discover your favorite
           bean, you'll just need to experiment!</p>
       </div>
@@ -118,17 +115,17 @@
 
   <div class="container-fluid padding">
     <div class="row text-center padding">
-      <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="col-sm">
         <i class="fa fa-html5" aria-hidden="true"></i>
         <h3>HTML5</h3>
         <p>Built with the latest version of HTML, HTML5.</p>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="col-sm">
         <i class="fa fa-bold" aria-hidden="true"></i>
         <h3>BOOTSTRAP</h3>
         <p>Built with the latest version of Bootstrap, Bootstrap 4.</p>
       </div>
-      <div class="col-sm-12 col-md-4">
+      <div class="col-sm">
         <i class="fa fa-css3" aria-hidden="true"></i>
         <h3>CSS3</h3>
         <p>Built with the latest version of CSS, CSS3.</p>
@@ -142,7 +139,7 @@
 
   <div class="container-fluid padding">
     <div class="row padding text-center">
-      <div class="col-md-12 col-lg-6">
+      <div class="col-sm">
         <h2>If you brew it...</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In atque illo nobis totam nemo quos.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, corporis eius. Illum, porro autem quisquam
@@ -152,6 +149,7 @@
           veritatis aliquam quo ullam repellat?</p>
         <br>
         <a href="#"><button class="btn btn-primary">Learn More</button></a>
+        <br>
       </div>
       <div class="col-lg-6">
         <img
@@ -172,7 +170,7 @@
   </div>
 
   <div id="emoji" class="collapse">
-    <div class="container-fluid padding">
+    <div class="container">
       <div class="row text-center">
         <div class="col-sm-12 col-md-3">
           <img src="/images/gif/panda.gif" alt="" class="gif">
@@ -321,12 +319,24 @@
         <!-- "Socket" underneath footer -->
         <div class="col-12 text-center" id="socket">
           <hr class="light">
-          <a href="#"><h5>&copy; CoffeeLoverz</h5></a>
+          <a href="#">
+            <h5>&copy; CoffeeLoverz</h5>
+          </a>
         </div>
       </div>
     </div>
   </footer>
 
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
