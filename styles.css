@@ -21,6 +21,8 @@ hr {
   margin: 5px;
 }
 
+/* Navigation */
+
 .navbar {
   padding: 0.8rem;
 }
@@ -32,6 +34,8 @@ hr {
 .nav-link {
   font-size: 1.1rem !important;
 }
+
+/* Image Slider */
 
 .carousel-inner img {
   width: 100%;
@@ -68,6 +72,8 @@ hr {
   color: #333;
 }
 
+/* Jumbotron */
+
 .jumbotron {
   padding: 1rem;
   border-radius: 0;
@@ -76,6 +82,8 @@ hr {
 .padding {
   padding-bottom: 2rem;
 }
+
+/* Welcome Section */
 
 .welcome {
   width: 75%;
@@ -90,6 +98,11 @@ hr {
   margin-bottom: 1rem;
 }
 
+/* Three Column, Two Column */
+
+
+/* Emoji Section */
+
 .funButton {
   width: 75%;
   margin: auto;
@@ -98,6 +111,16 @@ hr {
 .funButton button {
   text-transform: uppercase;
 }
+
+.fun {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.gif {
+  max-width: 100%;
+}
+
 
 
 .fa-html5 {
@@ -117,14 +140,7 @@ hr {
   margin: 1rem;
 }
 
-.fun {
-  width: 100%;
-  margin-bottom: 2rem;
-}
-
-.gif {
-  max-width: 100%;
-}
+/* Connect */
 
 .social a {
   font-size: 4.5rem;
@@ -159,6 +175,8 @@ hr {
   color: #d5d5d5;
 } 
 
+/* Footer */
+
 footer {
   background-color: #3f3f3f;
   color: #d5d5d5;
@@ -183,6 +201,7 @@ hr.light {
 #socket h5 a:hover {
   text-transform: scale(1.3);
 }
+
 
 
 /*
@@ -224,4 +243,3 @@ No media query since this is the default in Bootstrap */
 /* Extra (xl) large devices (large desktops, 1200px and up)*/
 
 @media (max-width: 1200px) { ... }
-
