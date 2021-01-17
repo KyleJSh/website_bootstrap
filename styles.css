@@ -213,7 +213,7 @@ No media query since this is the default in Bootstrap */
 @media (max-width: 576px) {
   .carousel-caption {
     position: absolute;
-    top: 25%;
+    top: 30%;
   }
   
   .carousel-caption h1 {
@@ -254,7 +254,7 @@ No media query since this is the default in Bootstrap */
   }
   .carousel-caption {
     position: absolute;
-    top: 35%;
+    top: 30%;
     transform: translateY(-50%);
   }
   .carousel-caption button {
