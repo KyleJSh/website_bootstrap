@@ -18,7 +18,7 @@ hr {
 }
 
 .btn {
-  margin: 5px;
+  margin: 4px;
 }
 
 /* Navigation */
@@ -258,11 +258,11 @@ No media query since this is the default in Bootstrap */
     transform: translateY(-50%);
   }
   .carousel-caption button {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
   .social a {
     font-size: 3.5rem;
-    padding: 2.5rem;
+    padding: 2.4rem;
   }
 }
 
